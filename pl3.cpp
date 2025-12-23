@@ -51,9 +51,9 @@ int main() {
     Employee emp[n];
     for(int i = 0; i <n; i++){
     	
-    	cout<<"Enter the ID of the Employee: ";
+    	cout<<"\nEnter the ID of the Employee: ";
     	cin>>emp[i].id;
-		cout<<"\nEnter the Name of the Employee: ";
+		cout<<"Enter the Name of the Employee: ";
     	cin>>emp[i].name;
     	cout<<"Enter the Salary of the Employee: ";
     	cin>>emp[i].salary;
@@ -63,8 +63,8 @@ int main() {
 
     cout << "Employees sorted by Salary:\n";
     for (int i = 0; i < n; i++) {
-        cout << "\nName:"<<emp[i].name<<endl<<"ID: " << emp[i].id<<endl
-             << "Salary: " << emp[i].salary << endl;
+        cout << "\nName:"<<emp[i].name<<"	ID: " << emp[i].id
+             << "	Salary: " << emp[i].salary << endl;
     }
 
     return 0;
