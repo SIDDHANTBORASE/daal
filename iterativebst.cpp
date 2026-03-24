@@ -1,6 +1,7 @@
 #include <iostream>
 #include <algorithm>
 #include <stack> 
+#include <queue>
 using namespace std;
 
 struct Node {
@@ -96,7 +97,7 @@ void postorder(Node* root) {
 int height(Node* root) {
     if (root == NULL) return 0;
     
-    #include <queue>
+    
     queue<Node*> q;
     q.push(root);
     int h = 0;
